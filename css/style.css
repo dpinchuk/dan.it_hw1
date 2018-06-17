@@ -1,0 +1,165 @@
+.header {
+    background-color: #fcfcfc;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.menu {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.main-menu {
+}
+
+.menu-item {
+    display: inline-block;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.main-menu__link {
+    display: inline-block;
+    font-family: Roboto, sans-serif;
+    padding: 28px 44px;
+    color: #16a085;
+    font-size: 18px;
+    font-weight: 800;
+    transition: background-color 1s;
+}
+
+.main-menu__link:hover {
+    background-color: #16a085;
+    color: #fcfcfc;
+}
+
+.body {
+    background-color: #f5f6f7;
+}
+
+.body-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.body-header {
+    margin: 56px 0 0;
+    font-family: Roboto, sans-serif;
+    color: #373737;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.body-text {
+    margin: 34px auto;
+    width: 1060px;
+    font-family: Roboto, sans-serif;
+    color: #373737;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 2.5px;
+    line-height: 25px;
+}
+
+.paragraph-last {
+    padding-bottom: 185px;
+}
+
+.btn {
+    margin-top: -140px;
+    margin-bottom: 95px;
+    font-family: GothamRounded, sans-serif;
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    background-color: #16a085;
+    color: #ffffff;
+    padding: 20px 44px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background-color 1s;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #16a085;
+    border: 1px solid #16a085;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.footer-label-slash {
+    color: #16a085;
+}
+
+.footer {
+    margin-bottom: 52px;
+}
+
+.footer-menu {
+    margin-left: 67px;
+}
+
+.footer-menu__item {
+    display: inline-block;
+    margin-bottom: 52px;
+}
+
+.footer-menu__link {
+    font-family: Roboto;
+    color: #373737;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.footer-menu__link:hover {
+    color: #16a085;
+}
+
+.copyright {
+    margin-top: -37px;
+    margin-right: 67px;
+    display: inline-block;
+    font-family: Roboto;
+    letter-spacing: 2px;
+    color: #373737;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: right;
+    position: relative;
+    float: right;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: GothamRounded;
+    src: url(../fonts/GothamRoundedBold.otf);
+}
