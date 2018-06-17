@@ -1,4 +1,5 @@
 *.iml
+*.xml
 target/
 .idea/
 node_modules/
