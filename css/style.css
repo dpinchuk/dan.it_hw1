@@ -1,165 +1,154 @@
-.header {
-    background-color: #fcfcfc;
+.main-header {
+  background-color: #fcfcfc;
 }
 
 .container {
-    width: 1280px;
-    margin: 0 auto;
-    box-sizing: border-box;
+  width: 1280px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .menu {
-    margin: 10px auto;
-    text-align: center;
-}
-
-.main-menu {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .menu-item {
-    display: inline-block;
+  display: inline-block;
 }
 
 .link {
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .main-menu__link {
-    display: inline-block;
-    font-family: Roboto, sans-serif;
-    padding: 28px 44px;
-    color: #16a085;
-    font-size: 18px;
-    font-weight: 800;
-    transition: background-color 1s;
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+  padding: 28px 44px;
+  color: #16a085;
+  font-size: 18px;
+  font-weight: 800;
+  transition: background-color 1s;
 }
 
 .main-menu__link:hover {
-    background-color: #16a085;
-    color: #fcfcfc;
+  background-color: #16a085;
+  color: #fcfcfc;
 }
 
-.body {
-    background-color: #f5f6f7;
+.section-body {
+  background-color: #f5f6f7;
+  padding-bottom: 86px;
 }
 
 .body-img {
-    display: block;
-    margin: 0 auto;
-}
-
-.text-align-center {
-    text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%
 }
 
 .body-header {
-    margin: 56px 0 0;
-    font-family: Roboto, sans-serif;
-    color: #373737;
-    text-transform: uppercase;
-    font-size: 22px;
-    font-weight: 900;
-    letter-spacing: 2px;
+  text-align: center;
+  margin: 56px 0 0;
+  font-family: Roboto, sans-serif;
+  color: #373737;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 2px;
 }
 
 .body-text {
-    margin: 34px auto;
-    width: 1060px;
-    font-family: Roboto, sans-serif;
-    color: #373737;
-    font-size: 16px;
-    font-weight: 900;
-    letter-spacing: 2.5px;
-    line-height: 25px;
-}
-
-.paragraph-last {
-    padding-bottom: 185px;
+  margin: 34px auto;
+  font-family: Roboto, sans-serif;
+  color: #373737;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 2.5px;
+  line-height: 25px;
 }
 
 .btn {
-    margin-top: -140px;
-    margin-bottom: 95px;
-    font-family: GothamRounded, sans-serif;
-    position: absolute;
-    display: inline-block;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 3px;
-    background-color: #16a085;
-    color: #ffffff;
-    padding: 20px 44px;
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: background-color 1s;
+  display: inline-block;
+  font-family: Roboto, sans-serif;
+  border-radius: 3px;
+  background-color: #16a085;
+  color: #ffffff;
+  padding: 20px 44px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: background-color 1s;
 }
 
 .btn:hover {
-    background-color: #ffffff;
-    color: #16a085;
-    border: 1px solid #16a085;
-}
-
-.clearfix::after {
-    content: "";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+  background-color: #ffffff;
+  color: #16a085;
+  padding: 19px 44px;
+  border: 1px solid #16a085;
 }
 
 .footer-label-slash {
-    color: #16a085;
+  color: #16a085;
 }
 
 .footer {
-    margin-bottom: 52px;
+  margin-bottom: 52px;
+  font-family: Roboto, sans-serif;
 }
 
 .footer-menu {
-    margin-left: 67px;
+  display: inline-block;
+  padding-left: 67px;
+  padding-top: 45px;
 }
 
 .footer-menu__item {
-    display: inline-block;
-    margin-bottom: 52px;
+  display: inline-block;
+  margin-bottom: 52px;
 }
 
 .footer-menu__link {
-    font-family: Roboto;
-    color: #373737;
-    font-size: 18px;
-    font-weight: 900;
+  color: #373737;
+  font-size: 18px;
+  font-weight: 900;
 }
 
 .footer-menu__link:hover {
-    color: #16a085;
+  color: #16a085;
 }
 
 .copyright {
-    margin-top: -37px;
-    margin-right: 67px;
-    display: inline-block;
-    font-family: Roboto;
-    letter-spacing: 2px;
-    color: #373737;
-    font-size: 16px;
-    font-weight: 900;
-    text-align: right;
-    position: relative;
-    float: right;
+  float: right;
+  margin-top: 45px;
+  margin-right: 67px;
+  letter-spacing: 1px;
+  color: #373737;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
 }
 
 @font-face {
-    font-family: Roboto;
-    src: url(../fonts/Roboto-Black.ttf);
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Black.ttf);
 }
 
 @font-face {
-    font-family: GothamRounded;
-    src: url(../fonts/GothamRoundedBold.otf);
+  font-family: GothamRounded;
+  src: url(../fonts/GothamRoundedBold.otf);
 }
